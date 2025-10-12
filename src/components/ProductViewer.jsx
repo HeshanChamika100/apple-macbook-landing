@@ -24,7 +24,7 @@ const ProductViewer = () => {
          <div className="flex-center gap-5 mt-5">
             <div className="color-control">
                <div onClick={() => setColor('#adb5bd')} className={clsx('bg-neutral-300', color === '#adb5bd' && 'active')} />
-               <div onClick={() => setColor('#2e2c2e')} className={clsx('bg-neutral-800', color === '#2e2c2e' && 'active')} />
+               <div onClick={() => setColor('#6b6b6b')} className={clsx('bg-neutral-800', color === '#6b6b6b' && 'active')} />
             </div>
 
             <div className="size-control">
